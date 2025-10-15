@@ -6,7 +6,7 @@ from PIL import Image
 
 
 API_TOKEN = "9747fdf8c4dde53ccbcd81be10d42d8ad1ec61d2a24ff582f77b9c875a40230af9adf5585fa7cb0c785f7ec9b67a3227"
-MAPS_KEY = "AIzaSyAChzelYp5YLjzy-lYgCHLRuGsv1RizfLc"
+MAPS_KEY = "Privater Gooogle API KEY"
 
 ICAO = input("Geben sie den gewünschten ICAO Code ein: ")
 url = f"https://airportdb.io/api/v1/airport/{ICAO}?apiToken=9747fdf8c4dde53ccbcd81be10d42d8ad1ec61d2a24ff582f77b9c875a40230af9adf5585fa7cb0c785f7ec9b67a3227"
