@@ -11,7 +11,7 @@ def get_airport_data():
     ICAO = input("Geben sie den gewünschten ICAO Code ein: ")
     url = f"https://airportdb.io/api/v1/airport/{ICAO}?apiToken=9747fdf8c4dde53ccbcd81be10d42d8ad1ec61d2a24ff582f77b9c875a40230af9adf5585fa7cb0c785f7ec9b67a3227"
     response = requests.get(url) 
-    if response.status_code==200:  #Fehlerbehandlung
+    if response.status_code==200:  #Aufruf erfolgreich
         data = response.json() #data ist die json von der url
         return data
     return None
@@ -32,4 +32,6 @@ def get_satellite_image(coordinates):
     return None
 
 #print(type(get_coordinates(get_airport_data())))
-get_satellite_image(get_coordinates(get_airport_data()))
+airport_data=get_airport_data() #Airport data ist die json datei
+coordinates=get_coordinates(airport_data)
+get_satellite_image(coordinates)

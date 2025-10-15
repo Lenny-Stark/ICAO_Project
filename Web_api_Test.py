@@ -7,3 +7,10 @@ print(response)
 
 data = response.json() #data ist die json von der url
 print(f"Flughafen Name: {data['name']}")
+
+#Zugriff auf einzelne frequenzen
+for i in data["runways"]:
+    rw_count=0
+    if i:
+        rw_count += 1
+print(f"This airport has {rw_count} runways")
