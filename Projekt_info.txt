@@ -1,7 +1,7 @@
 Website: https://airportdb.io/
 api_token airports: 9747fdf8c4dde53ccbcd81be10d42d8ad1ec61d2a24ff582f77b9c875a40230af9adf5585fa7cb0c785f7ec9b67a3227
 
-Google maps api key: AIzaSyAChzelYp5YLjzy-lYgCHLRuGsv1RizfLc 
+Google maps api key: Privat 
 
-stand 1.10: Zugriff auf airportdb funktioniert
-Zugriff auf google maps funktioniert
+stand 10.10: Zugriff auf airportdb funktioniert
+            Zugriff auf google maps funktioniert nicht
